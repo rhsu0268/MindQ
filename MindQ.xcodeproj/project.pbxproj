@@ -14,6 +14,13 @@
 		D1627DAB1B8E1C4C00746D42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1627DAA1B8E1C4C00746D42 /* Images.xcassets */; };
 		D1627DAE1B8E1C4C00746D42 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1627DAC1B8E1C4C00746D42 /* LaunchScreen.xib */; };
 		D1627DBA1B8E1C4D00746D42 /* MindQTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1627DB91B8E1C4D00746D42 /* MindQTests.m */; };
+		D1627DC51B8E57EB00746D42 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = D1627DC41B8E57EB00746D42 /* Question.m */; };
+		D1627DC81B8E58B500746D42 /* QuestionBook.m in Sources */ = {isa = PBXBuildFile; fileRef = D1627DC71B8E58B500746D42 /* QuestionBook.m */; };
+		D1627DCB1B8E5FB400746D42 /* ColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = D1627DCA1B8E5FB400746D42 /* ColorWheel.m */; };
+		D19918F81BCADB210046428D /* brain.png in Resources */ = {isa = PBXBuildFile; fileRef = D19918F71BCADB200046428D /* brain.png */; };
+		D1D919BE1BAE5820006A7BB3 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D919BD1BAE5820006A7BB3 /* ResultViewController.m */; };
+		D1D919C11BAEEC31006A7BB3 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D919C01BAEEC31006A7BB3 /* StartViewController.m */; };
+		D1D919C51BAF302D006A7BB3 /* ResultGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D919C41BAF302D006A7BB3 /* ResultGenerator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,19 @@
 		D1627DB31B8E1C4D00746D42 /* MindQTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindQTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1627DB81B8E1C4D00746D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1627DB91B8E1C4D00746D42 /* MindQTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MindQTests.m; sourceTree = "<group>"; };
+		D1627DC31B8E57EB00746D42 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		D1627DC41B8E57EB00746D42 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		D1627DC61B8E58B500746D42 /* QuestionBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionBook.h; sourceTree = "<group>"; };
+		D1627DC71B8E58B500746D42 /* QuestionBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionBook.m; sourceTree = "<group>"; };
+		D1627DC91B8E5FB400746D42 /* ColorWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorWheel.h; sourceTree = "<group>"; };
+		D1627DCA1B8E5FB400746D42 /* ColorWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorWheel.m; sourceTree = "<group>"; };
+		D19918F71BCADB200046428D /* brain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brain.png; sourceTree = "<group>"; };
+		D1D919BC1BAE5820006A7BB3 /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResultViewController.h; path = ../ResultViewController.h; sourceTree = "<group>"; };
+		D1D919BD1BAE5820006A7BB3 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultViewController.m; path = ../ResultViewController.m; sourceTree = "<group>"; };
+		D1D919BF1BAEEC31006A7BB3 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		D1D919C01BAEEC31006A7BB3 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		D1D919C31BAF302D006A7BB3 /* ResultGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultGenerator.h; sourceTree = "<group>"; };
+		D1D919C41BAF302D006A7BB3 /* ResultGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultGenerator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +103,16 @@
 			children = (
 				D1627DA11B8E1C4C00746D42 /* AppDelegate.h */,
 				D1627DA21B8E1C4C00746D42 /* AppDelegate.m */,
+				D1D919BF1BAEEC31006A7BB3 /* StartViewController.h */,
+				D1D919C01BAEEC31006A7BB3 /* StartViewController.m */,
 				D1627DA41B8E1C4C00746D42 /* ViewController.h */,
 				D1627DA51B8E1C4C00746D42 /* ViewController.m */,
+				D1D919BC1BAE5820006A7BB3 /* ResultViewController.h */,
+				D1D919BD1BAE5820006A7BB3 /* ResultViewController.m */,
 				D1627DA71B8E1C4C00746D42 /* Main.storyboard */,
+				D1D919C21BAF2FE1006A7BB3 /* Model */,
 				D1627DAA1B8E1C4C00746D42 /* Images.xcassets */,
+				D19918F71BCADB200046428D /* brain.png */,
 				D1627DAC1B8E1C4C00746D42 /* LaunchScreen.xib */,
 				D1627D9D1B8E1C4C00746D42 /* Supporting Files */,
 			);
@@ -117,6 +143,21 @@
 				D1627DB81B8E1C4D00746D42 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1D919C21BAF2FE1006A7BB3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D1627DC61B8E58B500746D42 /* QuestionBook.h */,
+				D1627DC71B8E58B500746D42 /* QuestionBook.m */,
+				D1627DC31B8E57EB00746D42 /* Question.h */,
+				D1627DC41B8E57EB00746D42 /* Question.m */,
+				D1627DC91B8E5FB400746D42 /* ColorWheel.h */,
+				D1627DCA1B8E5FB400746D42 /* ColorWheel.m */,
+				D1D919C31BAF302D006A7BB3 /* ResultGenerator.h */,
+				D1D919C41BAF302D006A7BB3 /* ResultGenerator.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,11 +204,12 @@
 		D1627D921B8E1C4C00746D42 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Richard Hsu";
 				TargetAttributes = {
 					D1627D991B8E1C4C00746D42 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 567LHK993X;
 					};
 					D1627DB21B8E1C4D00746D42 = {
 						CreatedOnToolsVersion = 6.4;
@@ -199,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D19918F81BCADB210046428D /* brain.png in Resources */,
 				D1627DA91B8E1C4C00746D42 /* Main.storyboard in Resources */,
 				D1627DAE1B8E1C4C00746D42 /* LaunchScreen.xib in Resources */,
 				D1627DAB1B8E1C4C00746D42 /* Images.xcassets in Resources */,
@@ -219,7 +262,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1627DC81B8E58B500746D42 /* QuestionBook.m in Sources */,
+				D1D919BE1BAE5820006A7BB3 /* ResultViewController.m in Sources */,
 				D1627DA61B8E1C4C00746D42 /* ViewController.m in Sources */,
+				D1D919C51BAF302D006A7BB3 /* ResultGenerator.m in Sources */,
+				D1627DC51B8E57EB00746D42 /* Question.m in Sources */,
+				D1627DCB1B8E5FB400746D42 /* ColorWheel.m in Sources */,
+				D1D919C11BAEEC31006A7BB3 /* StartViewController.m in Sources */,
 				D1627DA31B8E1C4C00746D42 /* AppDelegate.m in Sources */,
 				D1627DA01B8E1C4C00746D42 /* main.m in Sources */,
 			);
@@ -284,6 +333,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -347,9 +397,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MindQ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MindQ.MindQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -357,9 +414,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MindQ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MindQ.MindQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -377,6 +441,7 @@
 				);
 				INFOPLIST_FILE = MindQTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GW.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindQ.app/MindQ";
 			};
@@ -392,6 +457,7 @@
 				);
 				INFOPLIST_FILE = MindQTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GW.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindQ.app/MindQ";
 			};
@@ -416,6 +482,7 @@
 				D1627DBF1B8E1C4D00746D42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1627DC01B8E1C4D00746D42 /* Build configuration list for PBXNativeTarget "MindQTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +491,7 @@
 				D1627DC21B8E1C4D00746D42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
